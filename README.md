@@ -162,7 +162,7 @@ Returns the instance identified by `id`.
 Example:
 
 ```javascript=
-let instance = project.getInstance('a9212122-40b0-1387-7feb-7a721916580d');
+let instance = await project.getInstance('a9212122-40b0-1387-7feb-7a721916580d');
 ```
 
 ### async createInstance(options)
